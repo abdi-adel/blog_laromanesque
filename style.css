@@ -1,0 +1,204 @@
+/* Le font de notre page web */
+
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+/* mise en forme du body */
+
+body {
+  color: #555;
+  margin: 0;
+
+  font-family: "Montserrat", sans-serif;
+}
+
+/* mise en forme du header */
+
+#header {
+  background-color: #1abc9c;
+  height: 150px;
+  line-height: 150px;
+}
+
+#header a {
+  color: white;
+  text-decoration: none;
+
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+#header a:hover {
+  color: #222;
+}
+
+#header-title {
+  display: block;
+  float: left;
+
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#header-nav {
+  display: block;
+  float: right;
+
+  margin-top: 0;
+}
+
+#header-nav li {
+  display: inline;
+
+  padding-left: 20px;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+/* mise en forme du footer */
+
+#footer {
+  background-color: #2f2f2f;
+  margin: 50px 0;
+}
+
+.column {
+  min-width: 300px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+#footer h4 {
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+#footer p {
+  color: white;
+}
+
+.reseaux_sociaux a {
+  color: #1abc9c;
+  text-decoration: none;
+}
+
+.reseaux_sociaux a:hover {
+  color: #f6a623;
+}
+
+/* mise en forme de la section */
+
+/* d'abord la partie redation_billet */
+
+#rediger_billet,
+#rediger_commentaire {
+  max-width: 1000px;
+  height: 500px;
+  margin: 0 auto;
+
+  background-color: #f2f2f2;
+}
+
+.redaction_billet,
+.redaction_commentaire {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+#auteur_billet,
+#auteur_commentaire {
+  width: 800px;
+  height: 30px;
+}
+
+#titre_billet {
+  width: 800px;
+  height: 30px;
+}
+
+#contenu_billet,
+#contenu_commentaire {
+  width: 800px;
+  height: 200px;
+}
+
+#bouton_envoi_billet,
+#bouton_envoi_commentaire {
+  width: 300px;
+  height: 40px;
+  margin-top: 5px;
+  margin-left: 0px;
+  float: right;
+  border-radius: 5px;
+  text-align: center;
+}
+
+/* puis la partie post */ /* j'ai rajouté plus tard la partie about */
+
+.post-container:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.post,
+.about {
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 60px 0;
+}
+
+.post-author img {
+  width: 50px;
+  height: 50px;
+  vertical-align: middle;
+  border-radius: 50%;
+}
+
+.post-author span {
+  margin-left: 16px;
+}
+
+.post-date {
+  color: #d2d2d2;
+
+  font-size: 14px;
+  font-weight: bold;
+
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: #333;
+}
+
+a {
+  color: #f6a623;
+  text-decoration: none;
+}
+
+p,
+label,
+#bouton_envoi_billet {
+  line-height: 1.5;
+}
+
+/* about */
+
+.about {
+  text-align: center;
+}
+
+.about-romanesque img {
+  width: 300px;
+  height: 300px;
+}
+
+.about-romanesque {
+  margin-left: 0px;
+}
